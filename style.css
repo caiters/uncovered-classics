@@ -30,6 +30,11 @@ body {
   font-weight: normal;
 }
 
+.entry-content h1 { font-size: 33px; font-family: 'Libre Baskerville', Georgia, serif; }
+.entry-content h2 { font-size: 33px; font-family: 'Libre Baskerville', Georgia, serif; }
+.entry-content h3 { font-size: 14px; font-family: 'Karla', sans-serif; text-transform: uppercase; }
+.entry-content h6 { text-transform: uppercase; font-size: 12px; margin-top: 0; }
+
 @media screen and (min-width: 767px){
   #site-title { padding-bottom: 0; padding-left: 0; }
   .archive-menu-content { margin-left: 0; margin-right: 0; }
