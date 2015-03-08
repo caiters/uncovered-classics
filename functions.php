@@ -15,6 +15,7 @@ function theme_enqueue_styles() {
 require( '/home/ayashi/web/clients/uncovered-classics/wp-content/themes/zuki-child/inc/widgets.php' );
 
 add_image_size( 'uc-homepage', 380, 540, true ); // Homepage thumbnails (cropped)
+add_image_size( 'uc-highlights', 151, 214, true ); // Highlights thumbnails (cropped)
 
 add_filter( 'the_content_more_link', 'modify_read_more_link' );
   function modify_read_more_link() {

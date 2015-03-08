@@ -93,7 +93,7 @@ body {
 .uc-medium-one-content.has-thumbnail { position: relative; }
 .uc-medium-one { border: none; }
 .uc-medium-one .entry-title { margin-top: 0; }
-.uc-medium-one-content.has-thumbnail .medium-one-text { background: rgba(227,227,227,0.9) none; position: absolute; bottom: 0; width: 100%; font-size: 11px; padding: 1em; height: 50%; }
+.uc-medium-one-content.has-thumbnail .medium-one-text { background: rgba(227,227,227,0.95) none; position: absolute; bottom: 0; width: 100%; font-size: 11px; padding: 1em; height: 50%; }
 .uc-medium-one-content .medium-one-text h3 { font-size: 11px; }
 .uc-medium-one-content .medium-one-text .entry-author { font-size: 9px; font-style: italic; }
 .uc-medium-one-content.has-thumbnail .medium-one-text .entry-author { position: absolute; bottom: 10px; }
@@ -114,6 +114,8 @@ body {
 }
 
 /* homepage post list */
+
+.template-front .widget-area { border-top: none; }
 
 .uc-post-content { }
 
@@ -186,7 +188,7 @@ a.more-link { font-weight: bold; font-family: 'Karla', sans-serif; font-size: 18
 }
 
 /* widget btn */
-.widget a.btn { background: #000; display: inline-block; color: #fff; font-size: 12px; font-family: 'Karla', Arial, sans-serif;text-transform: uppercase; line-height: 40px; padding: 0 15px; -webkit-transition: background-color 0.25s; -moz-transition: background-color 0.25s; -o-transition: background-color 0.25s; transition: background-color 0.25s; }
+.widget a.btn { background: #000; display: inline-block; color: #fff; font-size: 12px; font-family: 'Karla', Arial, sans-serif;text-transform: uppercase; line-height: 40px; padding: 0 15px; -webkit-transition: background-color 0.25s; -moz-transition: background-color 0.25s; -o-transition: background-color 0.25s; transition: background-color 0.25s; font-weight: normal; }
 .widget a.btn:hover { background: #333; }
 
 /* Popular posts */

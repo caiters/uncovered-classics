@@ -52,7 +52,7 @@ if($mediumone_query->have_posts()) : ?>
 				<a href="<?php the_permalink(); ?>" title="<?php echo esc_attr( sprintf( __( 'Permalink to %s', 'zuki' ), the_title_attribute( 'echo=0' ) ) ); ?>">
         <?php if ( '' != get_the_post_thumbnail() ) : ?>
 			 		<div class="entry-thumb">
-			 			<?php the_post_thumbnail('zuki-medium-landscape'); ?>
+			 			<?php the_post_thumbnail('uc-highlights'); ?>
 			 		</div><!-- end .entry-thumb -->
 			  <?php endif; ?>
 				<div class="medium-one-text">
