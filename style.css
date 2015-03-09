@@ -208,3 +208,14 @@ a.more-link { font-weight: bold; font-family: 'Karla', sans-serif; font-size: 18
 /* footer */
 
 #footer-two .widget_most_popular_tags a { display: block; margin-bottom: 7px;}
+
+/* gallery */
+.gallery .gallery-item .gallery-caption { display: block; font-family: 'Karla', sans-serif; text-transform: uppercase; font-size: 11px; font-size: 0.6875rem; font-weight: bold; margin-bottom: 35px; }
+.gallery .gallery-item-title { display: none; }
+.gallery .gallery-item-description { display: none; }
+.gallery .gallery-item { box-sizing: border-box; padding: 0 40px; }
+
+.mfp-title h2 { color: #fff; font-family: 'Karla', sans-serif; text-transform: uppercase; font-size: 11px; font-size: 0.6875rem; font-weight: bold; margin: 1.5em 0; letter-spacing: 0.1em; }
+.mfp-title p { font-family: 'Karla', sans-serif; font-size: 14px; }
+.mfp-counter { font-family: 'Karla', sans-serif; font-size: 14px; }
+.mfp-bg { background: #000; opacity: 0.95; filter: alpha(opacity=95); }
